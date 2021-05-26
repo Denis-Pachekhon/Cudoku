@@ -91,23 +91,23 @@ namespace _.Net_Laba3
         //    }
         //    return result;
         //}
-        public string Display()
-        {
-            int count = 0;
-            string result = String.Empty;
-            foreach (Cell cell in map)
-            {
-                Digit digit = cell.Digit;
-                result += digit.Display();
-                count++;
-                if (count == 9)
-                {
-                    result += "\n";
-                    count = 0;
-                }
+        //public string Display()
+        //{
+        //    int count = 0;
+        //    string result = String.Empty;
+        //    foreach (Cell cell in map)
+        //    {
+        //        Digit digit = cell.Digit;
+        //        result += digit.Display();
+        //        count++;
+        //        if (count == 9)
+        //        {
+        //            result += "\n";
+        //            count = 0;
+        //        }
 
-            }
-            return result;
-        }
+        //    }
+        //    return result;
+        //}
     }
 }
